@@ -9,7 +9,7 @@ courtesy of a custom repo scanner written in go using [rjeczalik/notify](https:/
 ## Install
 
 ```
-docker pull dgutierrez1287/yum-repo
+docker pull rohcha/yum-repo
 ``` 
 
 ## Use 
@@ -18,7 +18,7 @@ The bare minimum need to run the container is a link to the repo directory on th
 and port.
 
 ```
-docker run -d -p 8080:80 -v /opt/repo:/repo dgutierrez1287/yum-repo
+docker run -d -p 8080:80 -v /opt/repo:/repo rohcha/yum-repo
 ```
 
 ### Mapping Logs
